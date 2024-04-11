@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    }
+    .box:before{
+        content: "hai";
+        position: absolute;
+        width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    top: 100px;
+    }
